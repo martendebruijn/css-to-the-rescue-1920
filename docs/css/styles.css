@@ -1,8 +1,15 @@
+/* 
+TO DO:
+[] Change right div to two div's of the same size (title and menu) and the img/svg as bg below
+[] Make a class for display: flex
+*/
+
 body {
   width: 100vw;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
   text-transform: lowercase;
+  line-height: 1.5;
 }
 
 .wrapper {
@@ -21,8 +28,9 @@ body {
   border: 10px solid #ff0000;
   display: -webkit-box;
   display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
 }
 
 .right {
@@ -47,7 +55,6 @@ body {
 
 .title > h3 {
   font-weight: 400;
-  padding-bottom: 0.4em;
 }
 
 .title > ul > li {
