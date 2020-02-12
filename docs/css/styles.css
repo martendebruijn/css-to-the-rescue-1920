@@ -4,12 +4,30 @@ body {
   font-family: 'Roboto', sans-serif;
   text-transform: lowercase;
   line-height: 1.5;
-  cursor: url(../img/chopstick.png), auto;
 }
 
-body > div {
+body > div:first-child {
   height: 100%;
   width: 100%;
-  background-color: red;
-  filter: grayscale(100%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div p {
+  height: calc(100vh / 6);
+  width: calc(100vw / 10);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7vh;
+  opacity: 0;
+  transition: opacity 2s ease 0.4s, transform 0.8s ease;
+  transform: scale(1);
+}
+
+div p:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  transform: scale(1.04);
 }
