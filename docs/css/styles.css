@@ -1,4 +1,4 @@
-body {
+/* body {
   width: 100vw;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
@@ -11,7 +11,7 @@ body {
 
 body > div {
   margin: 4px;
-  /* border: 2px solid red; */
+  /* border: 2px solid red; 
   height: 40vh;
   width: 40vh;
   display: grid;
@@ -89,7 +89,7 @@ body > div:first-child > div:nth-child(13) {
   grid-row: 7;
   grid-column: 2;
   transition: height 4s;
-  animation: height-animation 3s infinite linear;
+  animation: height-animation 4s infinite linear;
 }
 body > div:first-child > div:nth-child(14) {
   grid-row: 7;
@@ -139,8 +139,8 @@ body > div:first-child:hover > div {
   100% {
     height: 100%;
   }
-}
-/* 
+} */
+
 body > div:first-child {
   height: 100%;
   width: 100%;
@@ -198,4 +198,4 @@ body > div:first-child p:nth-child(5n + 10):hover {
 .dried {
   position: relative;
   z-index: 1;
-} */
+}
