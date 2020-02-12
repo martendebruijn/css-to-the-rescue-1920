@@ -4,6 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
   text-transform: lowercase;
   line-height: 1.5;
+  font-size: 6em;
 }
 
 body > div:first-child {
@@ -13,7 +14,7 @@ body > div:first-child {
   flex-wrap: wrap;
 }
 
-div p {
+body > div:first-child p {
   height: calc(100vh / 6);
   width: calc(100vw / 10);
   margin: 0;
@@ -26,8 +27,42 @@ div p {
   transform: scale(1);
 }
 
-div p:hover {
+body > div:first-child p:hover {
   opacity: 1;
   transition: opacity 0.2s ease;
-  transform: scale(1.04);
+  transform: scale(2) rotate(35deg);
+}
+
+body > div:first-child p:first-child:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  transform: scale(1.5) rotate(10deg);
+}
+body > div:first-child p:nth-child(2n + 4):hover {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  transform: scale(3) rotate(40deg);
+}
+body > div:first-child p:nth-child(3n + 6):hover {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  transform: scale(2) rotate(-20deg);
+}
+body > div:first-child p:nth-child(4n + 8):hover {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  transform: scale(1.25) rotate(-40deg);
+}
+body > div:first-child p:nth-child(5n + 10):hover {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  transform: scale(2.1) rotate(32deg);
+}
+
+.dried {
+  transition: transform 0.8s ease;
+}
+
+.dried:hover {
+  transform: rotateX(-45deg) rotateY(-20deg) rotateZ(-75deg);
 }
