@@ -5,5 +5,7 @@ body {
   text-transform: lowercase;
   line-height: 1.5;
   font-size: 6em;
-  cursor: url(../img/chopstick.png), 50%, 50%;
+  /* TODO: MIDDELPUNT VAN CURSOR UITREKENEN */
+  /* cursor: url(../img/chopstick.png), auto; */
+  overflow-x: hidden;
 }

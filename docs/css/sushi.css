@@ -1,0 +1,138 @@
+body > div:nth-child(5) {
+  position: relative;
+  z-index: 2;
+}
+body > div:nth-child(5) > div,
+body > div:nth-child(5) > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body > div:nth-child(5) > div > div {
+  width: 50%;
+  align-items: center;
+}
+body > div:nth-child(5) > div > div > img {
+  width: 30%;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+body > div:nth-child(5) > div > div > p {
+  font-size: 2.5vw;
+  padding-right: 0.5em;
+}
+body > div:nth-child(5) > div:last-child {
+  display: flex;
+  justify-content: center;
+}
+body > div:nth-child(5) > div:last-child > img {
+  width: 35%;
+}
+body
+  > div:nth-child(5)
+  > div
+  > div:first-child
+  > input[type='checkbox']:checked
+  + img {
+  animation: sushi_nigiri 3s forwards ease;
+}
+body
+  > div:nth-child(5)
+  > div
+  > div:nth-child(2)
+  > input[type='checkbox']:checked
+  + img {
+  animation: sushi_sashimi 3s forwards ease;
+}
+body
+  > div:nth-child(5)
+  > div
+  > div:nth-child(3)
+  > input[type='checkbox']:checked
+  + img {
+  animation: sushi_maki 3s forwards ease;
+}
+body
+  > div:nth-child(5)
+  > div
+  > div:nth-child(4)
+  > input[type='checkbox']:checked
+  + img {
+  animation: sushi_uramaki 3s forwards ease;
+}
+body
+  > div:nth-child(5)
+  > div
+  > div:nth-child(5)
+  > input[type='checkbox']:checked
+  + img {
+  animation: sushi_temaki 3s forwards ease;
+}
+body
+  > div:nth-child(5)
+  > div
+  > div:nth-child(6)
+  > input[type='checkbox']:checked
+  + img {
+  animation: sushi_unagi 3s forwards ease;
+}
+@keyframes sushi_nigiri {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(80%, 337%) rotate(16deg) scale(0.5);
+  }
+}
+@keyframes sushi_sashimi {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-64%, 342%) rotate(-16deg) scale(0.5);
+  }
+}
+@keyframes sushi_maki {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(113%, 237%) rotate(16deg) scale(0.5);
+  }
+}
+@keyframes sushi_uramaki {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-68%, 327%) rotate(-14deg) scale(0.7);
+  }
+}
+@keyframes sushi_temaki {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(83%, 111%) rotate(49deg) scale(0.5);
+  }
+}
+@keyframes sushi_unagi {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-108%, 105%) rotate(-11deg) scale(0.4);
+  }
+}

@@ -318,3 +318,19 @@ body > div:nth-child(4) > div:nth-child(59) {
   grid-row: 6;
   grid-column: 17;
 }
+
+body > div:nth-child(3) > div:nth-child(odd) {
+  animation: sushi-grid_bg-color 5s linear infinite;
+}
+
+/* @keyframes sushi-grid_bg-color {
+  0% {
+    background-color: lightsalmon;
+  }
+  50% {
+    background-color: #ad310b;
+  }
+  100% {
+    background-color: lightsalmon;
+  }
+} */
