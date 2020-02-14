@@ -17,11 +17,12 @@ body > div:first-child > div:last-child {
   flex: 3;
   background: #3dbde8;
   border: 10px solid #ffffff;
+  z-index: 6;
 }
 body > div:first-child > div:first-child > img {
   height: calc(90% / 3);
   position: relative;
-  z-index: 2;
+  z-index: 4;
 }
 body > div:first-child > div:last-child {
   display: flex;
@@ -33,13 +34,13 @@ body > div:first-child > div:last-child > img {
   margin: auto;
 }
 body > div:first-child > div:last-child > img:first-child {
-  z-index: 1;
+  z-index: 4;
   height: 90%;
   transform-origin: 50%;
   animation: home_rotation 10s infinite linear;
 }
 body > div:first-child > div:last-child > img:last-child {
-  z-index: 2;
+  z-index: 5;
   height: 40%;
   animation: home_rotation 5s infinite linear reverse;
 }
