@@ -17,20 +17,20 @@ Deze repo is een interactieve menukaart met de bedoeling om zo veel mogelijk CSS
 
 ## Keuze Opdracht
 
-##### Choose one asignment
+#### Choose one asignment
 
 Responsive restauraunt menu
 
-##### Context (You have to add at least one extra context to your site)
+#### Context (You have to add at least one extra context to your site)
 
 Dark-mode
 
-##### Pick two restrictions You have to work with at least two of these restrictions.
+#### Pick two restrictions You have to work with at least two of these restrictions.
 
 - When SVG meets CSS: Shapes / Masks / SVG
 - Responsive without media queries
 
-##### The Selector First CSS Methodology
+#### The Selector First CSS Methodology
 
 Om de 'the selector first CSS methodology' toe te passen heb ik veel gebruik gemaakt van nth-of-type() en child selectoren. Ik heb geprobeerd om zo min mogelijk attributes te gebruiken, dit voelde toch een beetje als valsspelen.
 
@@ -40,33 +40,33 @@ Geinspireerd door de Japanse kunstennaars van de eerste dag, heb ik besloten om 
 ## Leerproces
 Onderstaand een samenvatting van mijn leerproces.
 
-##### Selectors FIRST
+#### Selectors FIRST
 De 'selector first CSS methodology' was voor mij aan het begin knap lastig. Ik was zo erg gewend om classes te gebruiken dat ik eigenlijk niet zo goed wist welke selectoren er allemaal zijn en wat deze doen. Door deze methodology te gebruiken heb ik een goed beeld gekregen van welke selectoren er allemaal zijn en wat deze doen.
 
-##### CSS Tricks Almanac
+#### CSS Tricks Almanac
 Ik wilde mij vooral focussen op de CSS elementen die ik nog niet (goed) kende. Hiervoor ben ik de [CSS tricks almanac](https://css-tricks.com/almanac/) afgegaan en heb ik ieder element opgeschreven die ik nog niet kende. Vervolgens ben ik op basis van deze elementen gaan experimenteren.
 
-##### CSS Grid
+#### CSS Grid
 Persoonlijk maak ik veel gebruik van CSS flexbox. Doordat ik flexbox goed ken, laat ik CSS grid eigenlijk altijd links liggen. Om deze reden ben ik aan de slag gegaan met CSS grid. Al snel kwam ik erachter dat men enorm veel kan met CSS grid. 
 
 Zoals bijvoorbeeld dat je het gehele CSS grid scheef kan zetten met transform skew. Hiermee zou men, als je dat zou willen, een [isometric grid](https://codepen.io/andybarefoot/post/isometric-layout-with-css-grid) kunnen maken. 
 
-##### CSS Mousetrail
+#### CSS Mousetrail
 Het is mogelijk om een [mousetrail](https://medium.com/@dailyfire/cursor-trails-3-simple-css-tricks-to-add-to-any-website-part-1-64750798583c) te maken met enkel CSS. Eigenlijk is dit heel simpel. Men hide alle elementen en wanneer de gebruiker over de elementen heen hoverd worden deze zichtbaar.
 
-##### Blob
+#### Blob
 De gemaakte blob staat voor de Japanse vlag. Ik dacht altijd dat er slechts één waarde aan de border-radius toegevoegd kon worden, maar dit bleek [niet](https://dev.to/equinusocio/making-a-css-blob-37nb) waar te zijn.
 
-##### Custom Cursor
+#### Custom Cursor
 Voor het menu heb ik gebruik gemaakt van een custom cursor. De cursor zijn twee chopsticks.
 
-##### Mix Blend Mode
+#### Mix Blend Mode
 Mix-blend-mode is een CSS property die ik nog nooit had gebruikt. Dit heb ik dan ook in het menu verwerkt en mee geexperimenteerd.
 
-##### Checkbox HACK
+#### Checkbox HACK
 Om de animaties te triggeren heb ik gebruik gemaakt van [de checkbox hack](https://css-tricks.com/the-checkbox-hack/).
 
-##### Light/Dark Mode
+#### Light/Dark Mode
 Een van mijn keuze opdrachten was het maken van een dark mode. Dit heb ik gedaan door onderstaande mediaqueries te gebruiken en door middel van CSS custom variables.
 
 ###### Dark Mode
@@ -106,7 +106,7 @@ Een van mijn keuze opdrachten was het maken van een dark mode. Dit heb ik gedaan
 }
 ```
 
-##### Custom CSS Variables
+#### Custom CSS Variables
 Zelf heb ik ervaring met het werken met SCSS. Met SCSS kan men variabelen maken. Ik wist dat dit tegenwoordig ook in vanilla CSS kan, maar hoe het precies werkte, wist ik niet. Dit heb ik ontdekt.
 
 ```css
@@ -116,10 +116,10 @@ Zelf heb ik ervaring met het werken met SCSS. Met SCSS kan men variabelen maken.
 color: var(--text-color)
 ```
 
-##### Responsive without mediaqueries
+#### Responsive without mediaqueries
 De tweede opdracht die ik had gekozen was het responsive maken zonder gebruik te maken van mediaqueries (de mediaqueries voor light en dark mode niet meegerekend). Dit is niet helemaal gelukt. Alleen bij de sushi-animaties heb ik dit niet voor elkaar gekregen, omdat deze animaties te veel afhangen van de positie op het scherm. Als het scherm formaat drastisch veranderd, kloppen de animaties niet meer.
 
-##### Code opsplitsen
+#### Code opsplitsen
 Bij een van de eerste feedback sessies met Vitaly stelde ik een vraag over hoe ik mijn code overzichtelijk kan houden wanneer deze groeit. Ik vertelde dat ik moeite heb met het overzien van mijn code, wanneer deze groeit. Vitaly gaf mij de tip om mijn code zoveel mogelijk op te splitsen in kleinere stukken code. Dit heb ik dan ook zoveel mogelijk gedaan tijdens dit project. 
 
 ## Sources
