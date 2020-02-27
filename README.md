@@ -5,10 +5,10 @@
 [Bekijk de live demo!](https://martendebruijn.github.io/css-to-the-rescue-1920/)
 
 ###### Light mode
-![alt text](./readme-img/home.png)
-![alt text](./readme-img/sushi.png)
+![home](./readme-img/home.png)
+![sushi](./readme-img/sushi.png)
 ###### Dark mode
-![alt text](./readme-img/sushi-text-dark.png)
+![text in dark mode](./readme-img/sushi-text-dark.png)
 
 ## Description
 
