@@ -1,15 +1,12 @@
-/* :root {
-  color-scheme: light dark;
-} */
 body {
   background-color: var(--background-color);
 }
 body > div:nth-child(2) {
   height: 200px;
   width: 200px;
-  /* background-color: var(--normal-blob); */
+  background-color: var(--normal-blob);
   position: fixed;
-  /* z-index: 3; */
+  z-index: 3;
   top: 50vh;
   left: 50vw;
   margin-top: -100px;

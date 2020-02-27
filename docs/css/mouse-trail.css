@@ -5,7 +5,7 @@ body > div:nth-child(3) {
   flex-wrap: wrap;
   position: fixed;
   top: 0;
-  /* z-index: 10000; */
+  z-index: 10000;
 }
 body > div:nth-child(3) p {
   height: calc(100vh / 6);

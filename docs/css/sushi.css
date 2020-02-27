@@ -1,23 +1,30 @@
 body > div:nth-child(6) {
   position: relative;
-  z-index: 2;
+  z-index: 10001;
 }
-body > div:nth-child(6) > div,
-body > div:nth-child(6) > div > div {
+body > div:nth-child(6) > div > div > label {
+  cursor: pointer;
+}
+body > div:nth-child(6) > div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 body > div:nth-child(6) > div > div {
   width: 50%;
+}
+body > div:nth-child(6) > div > div > label {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
-body > div:nth-child(6) > div > div > img {
+body > div:nth-child(6) > div > div > label > img {
   width: 30%;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-body > div:nth-child(6) > div > div > p {
+body > div:nth-child(6) > div > div > label > p {
   font-size: 2.5vw;
   padding-right: 0.5em;
 }
@@ -32,6 +39,7 @@ body
   > div:nth-child(6)
   > div
   > div:first-child
+  > label
   > input[type='checkbox']:checked
   + img {
   animation: sushi_nigiri 3s forwards ease;
@@ -40,6 +48,7 @@ body
   > div:nth-child(6)
   > div
   > div:nth-child(2)
+  > label
   > input[type='checkbox']:checked
   + img {
   animation: sushi_sashimi 3s forwards ease;
@@ -48,6 +57,7 @@ body
   > div:nth-child(6)
   > div
   > div:nth-child(3)
+  > label
   > input[type='checkbox']:checked
   + img {
   animation: sushi_maki 3s forwards ease;
@@ -56,6 +66,7 @@ body
   > div:nth-child(6)
   > div
   > div:nth-child(4)
+  > label
   > input[type='checkbox']:checked
   + img {
   animation: sushi_uramaki 3s forwards ease;
@@ -64,6 +75,7 @@ body
   > div:nth-child(6)
   > div
   > div:nth-child(5)
+  > label
   > input[type='checkbox']:checked
   + img {
   animation: sushi_temaki 3s forwards ease;
@@ -72,17 +84,25 @@ body
   > div:nth-child(6)
   > div
   > div:nth-child(6)
+  > label
   > input[type='checkbox']:checked
   + img {
   animation: sushi_unagi 3s forwards ease;
 }
-body > div:nth-child(6) > div > div:first-child > input[type='checkbox'] + img {
+body
+  > div:nth-child(6)
+  > div
+  > div:first-child
+  > label
+  > input[type='checkbox']
+  + img {
   animation: sushi_nigiri_rev 3s forwards ease;
 }
 body
   > div:nth-child(6)
   > div
   > div:nth-child(2)
+  > label
   > input[type='checkbox']
   + img {
   animation: sushi_sashimi_rev 3s forwards ease;
@@ -91,6 +111,7 @@ body
   > div:nth-child(6)
   > div
   > div:nth-child(3)
+  > label
   > input[type='checkbox']
   + img {
   animation: sushi_maki_rev 3s forwards ease;
@@ -99,6 +120,7 @@ body
   > div:nth-child(6)
   > div
   > div:nth-child(4)
+  > label
   > input[type='checkbox']
   + img {
   animation: sushi_uramaki_rev 3s forwards ease;
@@ -107,6 +129,7 @@ body
   > div:nth-child(6)
   > div
   > div:nth-child(5)
+  > label
   > input[type='checkbox']
   + img {
   animation: sushi_temaki_rev 3s forwards ease;
@@ -115,6 +138,7 @@ body
   > div:nth-child(6)
   > div
   > div:nth-child(6)
+  > label
   > input[type='checkbox']
   + img {
   animation: sushi_unagi_rev 3s forwards ease;
