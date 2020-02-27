@@ -6,7 +6,8 @@
 
 ###### Light mode
 ![home](./readme-img/home.png)
-![sushi](./readme-img/sushi.png)
+![sushi](./readme-img/sushi-light.png)
+![sushi in bowl](./readme-img/sushi-in-bowl.png)
 ###### Dark mode
 ![text in dark mode](./readme-img/sushi-text-dark.png)
 
