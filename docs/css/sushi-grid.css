@@ -16,10 +16,10 @@ body > div:nth-child(5) > div {
   transform: skew(50deg);
 }
 body > div:nth-child(4) > div {
-  background-color: salmon;
+  background-color: var(--normal-sushi);
 }
 body > div:nth-child(5) > div > div {
-  background-color: blue;
+  background-color: var(--shadow-sushi);
 }
 /* LETTER S */
 body > div:nth-child(4) > div:first-child,

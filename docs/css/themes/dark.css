@@ -1,0 +1,15 @@
+/* dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --yellow-bg: #3700b3;
+    --red-bg: #682b36;
+    --blue-bg: #121212;
+    --normal-sushi: #3700b3;
+    --shadow-sushi: #bbb6fc;
+    --normal-text: black;
+    --normal-blob: #bbb6fc;
+    --background-color: #121212;
+    --text-color: white;
+    --sun-moon: #3700b3;
+  }
+}

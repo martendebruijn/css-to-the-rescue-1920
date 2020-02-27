@@ -1,64 +1,62 @@
-# CSS to the Rescue @cmda-minor-web 19-20
+# 🎓 CSS To The Rescue 👨🏻‍💻 Marten de Bruijn
 
-_This course is in English_
+## Live Demo
 
-In this three week course you are going to create an innovative, experimantal, yet pleasurable user experience by using CSS and SVG. No Javascrpt allowed.
+[Bekijk de live demo!](https://martendebruijn.github.io/css-to-the-rescue-1920/)
 
-## Learning goals
-- _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
-- _You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_
-- _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
-- _You have been experimenting: Have the learning goals been stretched?_
+## Description
 
-[Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
+Deze repo is een interactieve menukaart met de bedoeling om zo veel mogelijk CSS elementen te leren.
 
-## Programm
+## Keuze Opdracht
 
-### Week 1 - 👁 C what you did there
+##### Choose one asignment
 
-[See all the details of week 1 here](week1/).
+Responsive restauraunt menu Here’s some raw HTML you may use
 
-Goals of this week: 
+##### Context (You have to add at least one extra context to your site)
 
-- Be inspired
-- Discuss hot CSS topics.
-- Get going!
+Dark-mode
 
-<!-- [Opdrachten](https://drive.google.com/open?id=1OVhWQNaCgSluYviTKKWcApkyPd23xow1PiExb8GYANM) -->
+##### Pick two restrictions You have to work with at least two of these restrictions.
 
-<!-- [Slides](https://drive.google.com/open?id=1Rjl9xqXoKniQSRJPdkU1O5YwWC33SJK8KiV0a-H_xZU) -->
+- When SVG meets CSS: Shapes / Masks / SVG
+- Responsive without media queries
 
-### Week 2 - Create Stuff, 🙃 Smile 
+##### The Selector First CSS Methodology
 
-This week’s goals: Moar inspiration, create stuff, break stuff, and learn from each other.
+Hiervoor heb ik veel gebruik gemaakt van nth-of-type() en child selectoren. Daarnaast heb ik ook een customized attribute toegepast. In je HTMl geef je een naam mee in bijvoorbeeld je section:
 
-<!-- [Opdrachten](https://drive.google.com/open?id=1GMDTdW3LycAYpZSFI6gk_lrKrx8-zLWrNh69aaVEH5Y) -->
+```
+<section voorbeeld> </section>
+```
 
-<!-- [Slides](https://drive.google.com/open?id=1IqQeu1m0dQiSC_KCvrn8eencAgtYe7X6qT-gm0n9Bmc) -->
+Dit kun je op de volgende manier in je CSS aanroepen:
 
-### Week 3 - 🎪 Show time
+```
+[voorbeeld] {}
+```
 
-Goals: Blow us away.
+## Concept
 
-<!-- [Opdrachten](https://drive.google.com/open?id=13pKQu72pshaEzKw9q5JHLa-aop85nMP6nDCdqioWjoQ) -->
+## Leerproces
 
-<!-- [Slides](https://drive.google.com/open?id=1BSzGYNLMgtHD4HRnK7f0DgyTv4Pg3xsQwD_eYNo7v0Y) -->
+##### Selectors FIRST
 
+##### CSS Tricks Almanac
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+##### CSS Grid
 
-<!-- ☝️ replace this description with a description of your own work -->
+##### CSS Mousetrail
 
-<!-- Add a nice image here at the end of the week, showing off your shiny frontend 📸 -->
+##### Blob
 
-<!-- Maybe a table of contents here? 📚 -->
+##### Custom Cursor
 
-<!-- How about a section that describes how to install this project? 🤓 -->
+##### Mix Blend Mode
 
-<!-- ...but how does one use this project? What are its features 🤔 -->
+##### Checkbox HACK
 
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
+## Sources
 
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+## Future Wishlist

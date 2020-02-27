@@ -7,8 +7,8 @@ body > div:first-child {
 }
 body > div:first-child > div:first-child {
   flex: 1;
-  background-color: #ffff00;
-  border: 10px solid #ff0000;
+  background-color: var(--yellow-bg);
+  border: 10px solid var(--red-bg);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -16,7 +16,7 @@ body > div:first-child > div:first-child {
 }
 body > div:first-child > div:last-child {
   flex: 3;
-  background: #3dbde8;
+  background: var(--blue-bg);
   border: 10px solid #ffffff;
   z-index: 6;
 }
@@ -31,22 +31,29 @@ body > div:first-child > div:last-child {
   justify-content: center;
   align-items: center;
 }
-body > div:first-child > div:last-child > img {
+body > div:first-child > div:last-child > img,
+body > div:first-child > div:last-child > svg {
   position: absolute;
   margin: auto;
 }
-body > div:first-child > div:last-child > img:first-child {
+body > div:first-child > div:last-child > svg {
   z-index: 4;
   height: 90%;
   transform-origin: 50%;
   animation: home_rotation 10s infinite linear;
   max-width: 60%;
 }
-body > div:first-child > div:last-child > img:last-child {
+body > div:first-child > div:last-child > img {
   z-index: 5;
   max-width: 38%;
   height: 40%;
   animation: home_rotation 5s infinite linear reverse;
+}
+.cls-1 {
+  fill: none;
+  stroke: var(--sun-moon);
+  stroke-miterlimit: 10;
+  stroke-width: 15px;
 }
 @keyframes home_rotation {
   from {

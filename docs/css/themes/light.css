@@ -1,0 +1,15 @@
+/* light theme */
+@media (prefers-color-scheme: light) {
+  :root {
+    --yellow-bg: #ffff00;
+    --red-bg: #ff0000;
+    --blue-bg: #3dbde8;
+    --normal-sushi: salmon;
+    --shadow-sushi: blue;
+    --normal-text: black;
+    --normal-blob: red;
+    --background-color: white;
+    --text-color: black;
+    --sun-moon: #ff0;
+  }
+}
