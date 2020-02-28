@@ -132,8 +132,10 @@ Bij een van de eerste feedback sessies met Vitaly stelde ik een vraag over hoe i
 3. [Fancy Border Radius - Jessica Aiskel](https://codepen.io/Ninaiskel/pen/MWWgMwL)
 
 ## Future Wishlist
-- mooier kleurschema voor dark modes
-- cursor van kleur laten veranderen in de themes
-- als er gedrukt wordt de chopstick cursor naar binnen doen
-- soja fles toevoegen met golvende (animatie) soja saus
-- japanse tekens toevoegen
+- [ ] mooier kleurschema voor dark modes
+- [ ] cursor van kleur laten veranderen in de themes
+- [ ] als er gedrukt wordt de chopstick cursor naar binnen doen
+- [ ] soja fles toevoegen met golvende (animatie) soja saus
+- [ ] japanse tekens toevoegen
+- [ ] sushi animatie responsive maken
+- [ ] sushi bowl wit maken in dark modes
